@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Take Action — SDG 11: Sustainable Cities</title>
+  <meta name="description" content="Filterable list of actions, by category, that support UN SDG 11: Sustainable Cities and Communities.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a href="index.html" class="brand">Goal 11 <span>/</span> Cities</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="statistics.html">Statistics</a></li>
+          <li><a href="actions.html" aria-current="page">Take Action</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" data-theme-toggle type="button" aria-label="Toggle dark mode">☾ Dark mode</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero hero-has-image" style="padding-bottom: 2.5rem; background-image: url('images/section-hero.jpg');">
+      <div class="wrap" style="grid-template-columns: 1fr;">
+        <div class="content1">
+          <h1>What actually moves the needle</h1>
+          <p class="lede">Filter by category to see what's being done — and what you can push for — across transport, housing, green space, and waste.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+
+        <h2>Browse actions by category</h2>
+
+        <div class="filter-bar" data-filter-bar role="group" aria-label="Filter actions by category">
+          <button class="filter-btn active" data-category="all" type="button">All</button>
+          <button class="filter-btn" data-category="transport" type="button">Transport</button>
+          <button class="filter-btn" data-category="housing" type="button">Housing</button>
+          <button class="filter-btn" data-category="green" type="button">Green space</button>
+          <button class="filter-btn" data-category="waste" type="button">Waste</button>
+          <button class="filter-btn" data-category="resilience" type="button">Resilience</button>
+        </div>
+
+        <div class="card-grid" id="action-cards">
+
+          <article class="action-card card" data-category="transport">
+            <span class="tag">Transport</span>
+            <h3>Back reliable public routes</h3>
+            <p>Support expansion and maintenance of bus and maxi-taxi routes so fewer trips depend on private cars — this is the single biggest lever on Target 11.2.</p>
+          </article>
+
+          <article class="action-card card" data-category="transport">
+            <span class="tag">Transport</span>
+            <h3>Push for safer walking routes</h3>
+            <p>Advocate for sidewalks and crossings near schools and transport hubs — basic infrastructure that's often the first thing cut from budgets.</p>
+          </article>
+
+          <article class="action-card card" data-category="housing">
+            <span class="tag">Housing</span>
+            <h3>Support affordable-housing policy</h3>
+            <p>Back zoning and financing reforms that make it easier to build housing people can actually afford, rather than only high-end units.</p>
+          </article>
+
+          <article class="action-card card" data-category="housing">
+            <span class="tag">Housing</span>
+            <h3>Formalize informal settlements</h3>
+            <p>Push for upgrading programs — water, sanitation, land tenure — rather than displacement, for communities already living informally.</p>
+          </article>
+
+          <article class="action-card card" data-category="green">
+            <span class="tag">Green space</span>
+            <h3>Protect existing green space</h3>
+            <p>Oppose paving over parks and green corridors for parking or development — they're doing real cooling and drainage work, not just sitting there.</p>
+          </article>
+
+          <article class="action-card card" data-category="green">
+            <span class="tag">Green space</span>
+            <h3>Plant and maintain street trees</h3>
+            <p>Community tree-planting lowers urban heat and adds informal public space at very low cost.</p>
+          </article>
+
+          <article class="action-card card" data-category="waste">
+            <span class="tag">Waste</span>
+            <h3>Reduce single-use packaging</h3>
+            <p>Lower-volume waste streams are easier for municipal systems to actually collect and manage properly.</p>
+          </article>
+
+          <article class="action-card card" data-category="waste">
+            <span class="tag">Waste</span>
+            <h3>Support proper drain maintenance</h3>
+            <p>Waste dumped in waterways is a direct cause of the street flooding seen repeatedly in Port of Spain — clearing drains is a community-level action with an outsized effect.</p>
+          </article>
+
+          <article class="action-card card" data-category="resilience">
+            <span class="tag">Resilience</span>
+            <h3>Know your flood risk</h3>
+            <p>Check whether your route to work or school crosses a known flood point, and have a backup plan for heavy-rain days.</p>
+          </article>
+
+          <article class="action-card card" data-category="resilience">
+            <span class="tag">Resilience</span>
+            <h3>Advocate for drainage upgrades</h3>
+            <p>Raise ageing drainage infrastructure with local government representatives — it's the single most cited cause behind the capital's recurring flooding.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="wrap" style="max-width: 760px;">
+        <div class="section-head">
+          <h2>Quick questions</h2>
+          <p>A few things people usually ask when they first hear about SDG 11.</p>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-1" type="button">
+              Isn't this just a problem for big cities abroad?
+              <span class="plus">+</span>
+            </button>
+            <div class="accordion-panel" id="panel-1">
+              <p>No — Goal 11 applies at any city size. Port of Spain has about 478,000 people in its metro area, far smaller than a global mega-city, but it faces the same core issues: drainage infrastructure that hasn't kept pace with how the city is used, and transport corridors that back up during ordinary weather events.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-2" type="button">
+              What's the single biggest driver of SDG 11 progress?
+              <span class="plus">+</span>
+            </button>
+            <div class="accordion-panel" id="panel-2">
+              <p>Housing. UN-Habitat's 2026 report places adequate, affordable housing at the centre of the whole goal — it connects directly to transport need, informal settlement growth, and disaster vulnerability.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-3" type="button">
+              What can one person realistically do?
+              <span class="plus">+</span>
+            </button>
+            <div class="accordion-panel" id="panel-3">
+              <p>Local, specific pressure works better than general awareness: showing up to a community meeting about a known flood point, reporting a blocked drain, or using and defending public transport routes all have a measurable, local effect.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 Charles Walke. Made for PROG2015, The University of Trinidad &amp; Tobago.</p>
+      <p><a href="mailto:103967@we.utt.edu.tt">103967@we.utt.edu.tt</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
